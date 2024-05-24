@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class UserDao {
 	 String DB_URL = "jdbc:mysql://localhost:3306/userdb";
       String DB_USER = "root";
-      String DB_PASSWORD = "1807";
+      String DB_PASSWORD = "your_password";
      String Query  = "INSERT INTO login (username , password ) VALUES (? ,?)" ;
    
      public boolean addUser(User user) {
